@@ -1,0 +1,187 @@
+/**
+*
+* @author lenlan002
+*
+* @version 1.0
+* 
+* 20.02.2021
+*
+**/
+
+
+
+/* body */
+body
+{
+background: white;
+margin: 0;
+width: 100%;
+font-family: arial;
+}
+
+
+
+/* container */
+.container
+{
+background: white;
+width: 95%;
+margin: 0 auto;
+}
+
+
+
+/* header */
+.header
+{
+color: white;
+position: relative;
+width:90%;
+height: 350px;
+margin: auto;
+margin-top: 32px;
+overflow: hidden;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.left
+{
+position: absolute;
+z-index: 2;
+height:100%;
+width: 50%;
+}
+.name
+{
+	background:rgba(255,255,255, 0.2);
+	color: white;
+	font-weight: bold;
+	width:80%;
+	margin-left: 5%;
+	border-radius: 5%;
+	text-align: center;
+}
+ul
+{
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.list-1
+{
+	margin-top: 1.6%;
+	margin-left: 5%;
+	background:rgba(255,255,255, 0.2);
+	width: 40px;
+	line-height: 13px;
+}
+.list-1 li 
+{
+    display: block;
+    height: 50px;
+	line-height: 50px;
+}
+.list-1 img
+{
+	padding-left: 12.5%;
+	padding-top: 10px;
+}
+.list-1 li:after
+{
+	content:"\A\A ";
+	white-space: pre; 
+}
+.list-2
+{
+	margin-top: 3%;
+	margin-left: 12%;
+}
+.list-2 li:after
+{
+	content:"\A________ \A\A ";
+	white-space: pre; 
+}
+.list-2 li:last-child::after
+{
+	content:"";
+}
+.right
+{
+position: absolute;
+z-index: 2;
+margin-left: 50%;
+
+height:100%;
+width: 50%;
+}
+.background
+{
+position: absolute;
+z-index: 1;
+
+width:100%;
+background-attachment: fixed;
+}
+
+
+
+/* flex-box ^ items */
+.flex
+{
+display: flex;
+justify-content:  space-between;
+margin-top: 40px;
+}
+.box
+{
+width: 23.33%;
+height: 400px;
+margin: 10px auto;
+text-align: justify;
+overflow: hidden;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.box:hover 
+{
+opacity: 0.6;
+}
+
+
+
+/* content */
+.content 
+{
+margin-left: 30px;
+margin-top: 30px;
+}
+
+
+
+/* footer */
+.footer
+{
+background: black;
+height: 64px;
+color: white;
+opacity: 0.6;
+}
+
+
+
+/*links*/
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #87AFC7;
+  text-decoration: none;
+}
