@@ -183,19 +183,22 @@ opacity: 0.6;
 
 
 /*links*/
-a:link {
+a:link 
+{
   color: white;
   text-decoration: none;
 }
 
 /* visited link */
-a:visited {
+a:visited 
+{
   color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+a:hover 
+{
   color: #87AFC7;
   text-decoration: none;
 }
